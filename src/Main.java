@@ -9,7 +9,7 @@ public class Main {
 //            mainFrame = new ChessGameFrame(1000, 760);
 //            mainFrame.setVisible(false);
 //            MusicTest.getBgm();
-//        });
+        });
         SwingUtilities.invokeLater(() -> {
             Menu upperFrame = new Menu(1000, 760);
             Chessboard.setMenu(upperFrame);
